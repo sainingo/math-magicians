@@ -37,7 +37,7 @@ class Calculator extends React.Component {
           <button type="button" onClick={this.handleClickEvent} id="7" className="col">7</button>
           <button type="button" onClick={this.handleClickEvent} id="8" className="col">8</button>
           <button type="button" onClick={this.handleClickEvent} id="9" className="col">9</button>
-          <button type="button" onClick={this.handleClickEvent} id="x" className="col">x</button>
+          <button type="button" onClick={this.handleClickEvent} id="*" className="col">*</button>
         </div>
         <div className="row-three grid">
           <button type="button" onClick={this.handleClickEvent} id="4" className="col">4</button>
