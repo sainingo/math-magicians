@@ -48,3 +48,25 @@
 .div-col {
   background-color: rgb(235, 230, 230);
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.header > span {
+  margin-left: 40px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 100px;
+  color: blue;
+  text-decoration: underline;
+}
